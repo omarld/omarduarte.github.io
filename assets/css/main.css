@@ -1753,7 +1753,7 @@ input, select, textarea {
 		}
 
 		.container h2 {
-			color: #646695;
+			color: #4acaa8;
 			font-size: 3.5em;
 		}
 
@@ -2831,6 +2831,7 @@ input, select, textarea {
 		}
 
 			#footer .copyright li {
+				color: #404040d1;
 				border-left: solid 1px #d4d4d4;
 				display: inline-block;
 				font-size: 0.8em;
@@ -2844,8 +2845,13 @@ input, select, textarea {
 					padding-left: 0;
 				}
 
+				#footer .copyright li a:link, #footer .copyright li a:hover, #footer .copyright li a:active {
+					text-decoration: none;
+				}
 				#footer .copyright li a {
+					text-decoration: none;
 					color: inherit;
+					border-bottom: 0;
 				}
 
 /* XLarge */
